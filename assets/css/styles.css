@@ -64,6 +64,12 @@ main {
   text-transform: uppercase;
 }
 
+.logo-lockup a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
 .solid-logo {
   width: 42px;
   height: auto;
