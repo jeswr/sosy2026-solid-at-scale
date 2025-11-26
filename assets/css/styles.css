@@ -64,6 +64,12 @@ main {
   text-transform: uppercase;
 }
 
+.solid-logo {
+  width: 42px;
+  height: auto;
+  object-fit: contain;
+}
+
 .logo-lockup .session-mark {
   color: var(--glow);
 }
@@ -381,12 +387,21 @@ nav a {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 1.25rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-frame h2 {
+  margin: 0;
+  text-align: center;
 }
 
 .form-frame iframe {
+  flex: 1;
   width: 100%;
-  min-height: 1400px;
+  min-height: 600px;
   height: 100%;
   border: none;
   border-radius: 0.75rem;
