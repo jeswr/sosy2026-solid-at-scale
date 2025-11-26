@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" aria-label="Open Data Institute">
+  <defs>
+    <linearGradient id="odi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4b4" />
+      <stop offset="100%" stop-color="#0091ff" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="12" fill="url(#odi)" />
+  <text
+    x="100"
+    y="38"
+    font-family="'Space Grotesk', 'Inter', sans-serif"
+    font-size="34"
+    text-anchor="middle"
+    fill="#02060f"
+    font-weight="700"
+  >ODI</text>
+</svg>
